@@ -1,0 +1,39 @@
+main {
+    margin: 10px;
+}
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+li {
+    width: 130px;
+    height: 180px;
+    background-image: url(../img/tarjeta.jpeg);
+    background-size: cover;
+
+    border: 3px solid blue;
+    border-radius: 10px;
+
+    text-align: center;
+
+    .div1 {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+li:hover {
+    border: 3px solid yellow;
+    // transform: translate(20px, -10px);
+    // transition: transform 0.4s ease;
+}
+

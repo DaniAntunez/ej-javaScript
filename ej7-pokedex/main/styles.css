@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-image: url(../img/fondo.jpeg);
+  font-family: rubik;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+header img {
+  width: 400px;
+}
+header input {
+  border-radius: 20px;
+  text-align: center;
+}
+
+main {
+  margin: 10px;
+}
+
+ol {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+li {
+  width: 130px;
+  height: 180px;
+  background-image: url(../img/tarjeta.jpeg);
+  background-size: cover;
+  border: 3px solid blue;
+  border-radius: 10px;
+  text-align: center;
+}
+li .div1 {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:hover {
+  border: 3px solid yellow;
+}/*# sourceMappingURL=styles.css.map */
